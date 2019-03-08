@@ -1,0 +1,16 @@
+{
+  "name": "az-deploy",
+  "version": "1.0.0",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.3.0",
+    "shelljs": "^0.8.3"
+  },
+  "engines": {
+    "node": "8.11.1"
+  },
+  "scripts": {
+    "production": "node deploy/production.js",
+    "staging": "node deploy/staging.js"
+  }
+}
