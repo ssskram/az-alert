@@ -96,7 +96,7 @@ const fourHundo = app => {
 }
 
 const tellBaloo = alert => {
-    fetch("https://baloo.azurewebsites.us/alert", {
+    fetch("https://baloo.azurewebsites.us/azMonitor/alert", {
         method: 'POST',
         headers: new Headers({
             'Authorization': 'Bearer ' + process.env.BALOO,
