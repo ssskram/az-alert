@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "FUNCTIONS_WORKER_RUNTIME": "node",
+      "AzureWebJobsStorage": "{AzureWebJobsStorage}",
+      "BALOO": "<baloo bearer token>",
+      "AZURE_PROXY": "<azure proxy bearer token>"
+    }
+  }
