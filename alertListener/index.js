@@ -69,7 +69,7 @@ const fiveHundo = app => {
     .then(res => res.json())
     .then(data => {
       data[0].metrics.forEach(metric => {
-        if (metric.average > 0) {
+        if (metric.average > 0 && app.name != "cartegraphApi") {
           tellBaloo({
             appName: app.name,
             errorType: "500",
